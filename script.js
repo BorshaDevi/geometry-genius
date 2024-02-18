@@ -36,13 +36,13 @@ function calculateRectangle(){
 function calculateParallelogram(){
     const parallelogramBaseInput=document.getElementById('parallelogram-base')
     const parallelogramBaseText=parallelogramBaseInput.value
-    const width=parseFloat(parallelogramBaseText)
+    const base=parseFloat(parallelogramBaseText)
     
     const parallelogramHeightInput=document.getElementById('parallelogram-height')
     const parallelogramHeightText=parallelogramHeightInput.value
-    const lenght=parseFloat(parallelogramHeightText)
+    const height=parseFloat(parallelogramHeightText)
     
-    const area=width*lenght
+    const area=base*height
     console.log('multipli',area)
      const parallelogramArea=document.getElementById('parallelogram-area')
      parallelogramArea.innerText=area;
