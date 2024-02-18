@@ -53,7 +53,8 @@ function calculateParallelogram(){
 function calculateRhombus(){
      const d1=getRhombusById("rhombus-base")
      const d2=getRhombusById("rhombus-height")
-    console.log(d1,d2)
+   const arEa=0.5*d1*d2
+   console.log(arEa)
 }
 function getRhombusById(InputId){
     const rhombusInput=document.getElementById(InputId)
