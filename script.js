@@ -51,5 +51,13 @@ function calculateParallelogram(){
 
 // rhombus
 function calculateRhombus(){
-    
+     const d1=getRhombusById("rhombus-base")
+     const d2=getRhombusById("rhombus-height")
+    console.log(d1,d2)
+}
+function getRhombusById(InputId){
+    const rhombusInput=document.getElementById(InputId)
+    const rhombusText=rhombusInput.value
+    const valueD=parseFloat(rhombusText)
+    return valueD;
 }
