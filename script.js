@@ -48,3 +48,8 @@ function calculateParallelogram(){
      parallelogramArea.innerText=area;
 
 }
+
+// rhombus
+function calculateRhombus(){
+    
+}
