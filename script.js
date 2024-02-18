@@ -32,3 +32,19 @@ function calculateRectangle(){
      rectangleArea.innerText=area;
 
 }
+// parallelogram
+function calculateRectangle(){
+    const parallelogramBaseInput=document.getElementById('parallelogram-base')
+    const parallelogramBaseText=parallelogramBaseInput.value
+    const width=parseFloat(parallelogramBaseText)
+    
+    const parallelogramHeightInput=document.getElementById('parallelogram-height')
+    const parallelogramHeightText=parallelogramHeightInput.value
+    const lenght=parseFloat(parallelogramHeightText)
+    
+    const area=width*lenght
+    console.log('multipli',area)
+     const parallelogramArea=document.getElementById('parallelogram-area')
+     parallelogramArea.innerText=area;
+
+}
