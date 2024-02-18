@@ -33,7 +33,7 @@ function calculateRectangle(){
 
 }
 // parallelogram
-function calculateRectangle(){
+function calculateParallelogram(){
     const parallelogramBaseInput=document.getElementById('parallelogram-base')
     const parallelogramBaseText=parallelogramBaseInput.value
     const width=parseFloat(parallelogramBaseText)
